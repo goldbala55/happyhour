@@ -1,2 +1,2 @@
 # happyhour
-world domination is the goal of our model
+ I updated this on my new branch - Alan
