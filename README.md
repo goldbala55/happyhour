@@ -11,5 +11,5 @@ Description of the communication protocols:
 - #happyhour slack channel
 - Any other communication throughout the week such as additional meetings
 
-===========================================================
-- expectation is to use Postgres DB on AWS
+
+- The expectation is to use Postgres DB on AWS
