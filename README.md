@@ -7,7 +7,7 @@ Description of the communication protocols:
 - #happyhour slack channel
 - Any other communication throughout the week such as additional meetings
 
-- Selected topic: 
-- Reason why they selected their topic:
-- Description of their source of data:
-- Questions they hope to answer with the data:
+Selected topic: 
+Reason why they selected their topic:
+Description of their source of data:
+Questions they hope to answer with the data:
