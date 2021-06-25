@@ -2,7 +2,7 @@
 
 - Selected topic: Exploring Survival on the Titanic
 - Reason why they selected their topic: Determine if there are certain factors such as gender, age, ticket class, etc that contributed to whether someone survived on the Titanic
-- Description of their source of data: Train set has 891 rows and 12 columns based on PassengerId, Survived (target column), Pclass (Passenger's class), Name (will not be used for machine learning), Sex (to be converted to 0 and 1), Age (to be converted to age buckets), SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare (can be converted to fare buckets), Cabin (lots of missing values), Embarked
+- Description of their source of data: Train set has 891 rows and 12 columns based on PassengerId, Survived (target column), Pclass (Passenger's class), Name (will not be used for machine learning), Sex (to be converted to 0 and 1), Age (to be converted to age buckets), SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare (can be converted to fare buckets), Cabin (lots of missing values), and Embarked
 - Questions they hope to answer with the data: What factors contributed the most to the survival on the Titanic? What factors did not contribute to the survival on the Titanic?
 
 Description of the communication protocols:
