@@ -2,7 +2,7 @@
 
 - Selected topic: Survival rates of the Titans using Random Forest Models.
 
-- Reason why they selected their topic: Topic was selected due to avalability of data and structure of the data. The data contains several attributes that will pair well with Random Forest and the dat set has a defined target. 
+- Reason why they selected their topic: Topic was selected due to availability of data and structure of the data. The data contains several attributes that will pair well with Random Forest and the dat set has a defined target. 
 
 
 - Description of their source of data: The data was pulled from Kaggel.com  and is composed of two CSV file that are split between Train and Test. We have used Jupiter Note books and python to merge the data set back into one  and will re split. 
@@ -17,4 +17,4 @@ Description of the communication protocols:
 - Out of Class Meetings on Monday and  Saturday or when needed. 
 
 
-- The expectation is to use Postgres DB on AWS
+- The expectation is to use Postgres DB on AWS, Jupiter note book and Random Forest. The final results will be loaded into tableau. 
