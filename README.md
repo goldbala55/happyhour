@@ -17,4 +17,4 @@ Description of the communication protocols:
 - Out of Class Meetings on Monday and  Saturday or when needed. 
 
 
-- The expectation is to use Postgres DB on AWS, Jupiter note book and Random Forest. The final results will be loaded into tableau. 
+- The expectation is to use Postgres DB on AWS, Jupiter Note Book and Random Forest. The final results will be loaded and presented in tableau. 
