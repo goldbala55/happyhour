@@ -9,7 +9,7 @@ Description of the communication protocols:
 
 - Breakout rooms during class sessions Tuesdays and Thursdays
 - #happyhour slack channel
-- Any other communication throughout the week such as additional meetings
+- Out of Class Meetings on Monday and  Saturday or when needed. 
 
 
-- The expectation is to use Postgres DB on AWS
+- The expectation is to use Postgres DB on AWS, Jupiter Note Book and Random Forest. The final results will be loaded and presented in tableau. 
