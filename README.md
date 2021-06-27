@@ -1,14 +1,9 @@
 # happyhour
 
-- Selected topic: Survival rates of the Titans using Random Forest Models.
-
-- Reason why they selected their topic: Topic was selected due to availability of data and structure of the data. The data contains several attributes that will pair well with Random Forest and the dat set has a defined target. 
-
-
-- Description of their source of data: The data was pulled from Kaggel.com  and is composed of two CSV file that are split between Train and Test. We have used Jupiter Note books and python to merge the data set back into one  and will re split. 
-
-- Questions they hope to answer with the data: Determine the best possible location for survival on a cruise ship. Date is laid out with Class(deck) location along with other metric that will help us deterring the best Sex, age and location fro surviving the accident. 
-
+- Selected topic: Exploring Survival on the Titanic
+- Reason why they selected their topic: Determine if there are certain factors such as gender, age, ticket class, etc that contributed to whether someone survived on the Titanic
+- Description of their source of data: Train set has 891 rows and 12 columns based on PassengerId, Survived (target column), Pclass (Passenger's class), Name (will not be used for machine learning), Sex (to be converted to 0 and 1), Age (to be converted to age buckets), SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare (can be converted to fare buckets), Cabin (lots of missing values), and Embarked
+- Questions they hope to answer with the data: What factors contributed the most to the survival on the Titanic? What factors did not contribute to the survival on the Titanic?
 
 Description of the communication protocols:
 
