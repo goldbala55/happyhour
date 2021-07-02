@@ -10,6 +10,8 @@ Description of their source of data: Train set has 891 rows and 12 columns based
 - Description of the data exploration phase of the project: Based on loading the data into a pandas dataframe, there are 714 non-null (177 null) values for Age, 204 non-null (687 null) values for Cabin, and 889 non-null (2 null) values for Embarked, as such these values may not be as reliable to predict the survival rate for the Titanic. In addition, the average rate of survival was approximately 38.38% with an average fare of 32.20 and standard deviation of 49.69 for the fare.
 - Description of the analysis phase of the project: For the analysis, gender is replaced with 1 and 0 values. Further, the train and test dataframes are loaded to the Postgres DB.
 
+Google Slides: https://docs.google.com/presentation/d/1qMSHVCMOXXqsc5P8uBrMM9QYQQPu_BJBKuw3FCWUnwk/edit#slide=id.p
+
 Description of the communication protocols:
 
 - Breakout rooms during class sessions Tuesdays and Thursdays
