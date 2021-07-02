@@ -12,6 +12,22 @@ Description of their source of data: Train set has 891 rows and 12 columns based
 
 Google Slides: https://docs.google.com/presentation/d/1qMSHVCMOXXqsc5P8uBrMM9QYQQPu_BJBKuw3FCWUnwk/edit#slide=id.p
 
+Storyboard:
+
+- Bar Graph survival rate by Ticket Price (as an indicator of Class or Location on the Ship)
+- Graph Survival by Sex and Age groups
+- Plot survival rate/Lifeboat and compare to modern day cruise ships 
+- Plot survival rate on a modern day cruise ship (using model output) and compare to the Titanic  
+- Tabulate expected survival rate based on identified relationships 
+
+Description of the tool(s) that will be used to create final dashboard:
+
+- GitHub, jupyter notebook, postgreSQL, AWS, Google slides, Tableau
+
+Description of interactive element(s):
+
+- Tableau will be used for the interactive elements of exploring certain relationships between different factors which contributed to survival on the Titanic (https://public.tableau.com/authoring/ExploringSurvivalontheTitanicTableau/AverageSurvivalRateByAge#2) 
+
 Description of the communication protocols:
 
 - Breakout rooms during class sessions Tuesdays and Thursdays
