@@ -1,5 +1,8 @@
-# my options
+# Adding config.py file.
 config.py
+
+#Adding additional files.
+Titanic Script.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
