@@ -26,7 +26,7 @@ Description of the tool(s) that will be used to create final dashboard:
 
 Description of interactive element(s):
 
-- Tableau will be used for the interactive elements of exploring certain relationships between different factors which contributed to survival on the Titanic (https://public.tableau.com/authoring/ExploringSurvivalontheTitanicTableau/AverageSurvivalRateByAge#2) 
+- Tableau will be used for the interactive elements of exploring certain relationships between different factors which contributed to survival on the Titanic (https://public.tableau.com/app/profile/alex.wang6199/viz/ExploringSurvivalontheTitanicTableau/AverageSurvivalRateByClass) 
 
 Description of the communication protocols:
 
