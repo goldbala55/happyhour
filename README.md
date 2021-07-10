@@ -21,7 +21,7 @@ Storyboard:
 - Plot survival rate/Lifeboat and compare to modern day cruise ships 
 - Plot survival rate on a modern day cruise ship (using model output) and compare to the Titanic  
 - Tabulate expected survival rate based on identified relationships 
-- eyes box plots to explore survivale rate result  with different bias in the model. 
+-  Box plots to explore survival rate result  with different bias in the model. 
 
 Description of interactive element(s):
 
