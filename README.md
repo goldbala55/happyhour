@@ -5,12 +5,12 @@
   - Reason why the topic was selected: The crash of the Titanic is one history's most storied tragedies.  While there are many myths and facts surrounding the events of the day we know for certain who survived and who did not.  The question is why and how did some of them survive and others perish?  The team will determine if there are certain factors such as gender, age, ticket class, etc that contributed to whether someone survived on the Titanic.
   - Description of the source data: Given the fame of the Titanic the details surrounding the passenger list and the survivors are well documented.  The version used in this analysis was posted on Kaggle and the link is below in the Resources section.
   - Questions to answer: 
-    - What factors contributed the most to the survival on the Titanic? What factors did not contribute to the survival on the Titanic? Can the factors be utilized to predict survival rates on a current ship.
+    - What factors contributed the most to the survival on the Titanic? What factors did not contribute to the survival on the Titanic? Can the factors be utilized to predict survival rates on a current ship?
     - __Use the model and the biases to predict survival rates on a current cruise ship (shift bias on # of lifeboats)__
     - Identify relationships that contribute to survival rates (i.e., single traveler vs traveling with a family member)
     - What impact did sex, age, or traveler class have on survival?
   - Description of the data exploration phase of the project: 
-    - Initial exploration of the data revealed several interesting factors to explore: Age, sex, and passenger class.  These will be further explored and transformed in the model pre-processing phase.  It was also observed that the data had a missing points for multiple values scattered through the input file.  As the modeling packages do not use missing values these will need to be addressed in the preprocessing phase as well.  Finally, text based values (like sex) and continuos values (like fare) will also need to be transformed to be useful in the modeling process.
+    - Initial exploration of the data revealed several interesting factors to explore: Age, sex, and passenger class.  These will be further explored and transformed in the model pre-processing phase.  It was also observed that the data had multiple missing values scattered throughout the input file.  As the modeling packages do not use missing values these will need to be addressed in the preprocessing phase as well.  Finally, text based values (like sex) and continuous values (like fare) will also need to be transformed to be useful in the modeling process.
 
       * [Survival_count_by_Age](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Survival_count_by_Age.png)
       * [Survival_count_by_class](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Survival_count_by_class.png)
@@ -21,13 +21,13 @@
 
 ## Machine Learning Model
 ### Preprocessing
-Based on the information gathered in the preprocessing phase the following decisions and actions were taken:
-  - the data is split into training and testing components using the stand sklearn train_test_split() module.  We used an 80/20 train/test split to make sure the training data had sufficient observations to work with.
+Based on the information gathered in the preprocessing phase, the following decisions and actions were taken:
+  - The data is split into training and testing components using the standard sklearn train_test_split() module.  We used an 80/20 train/test split to make sure the training data had sufficient observations to work with.
   - All transformations are applied to the train and test datasets.
-  - Categorical data is transformed into numerical equivalents, e,g, converting sex into a numeric representation (replace({'male':0,'female':1}))
-  - While it is common to drop rows with missing data to dropped when building ML models, for a file with a modest size like the Titanic passenger list this would substantially reduce the available data.  As an alternative, we used an approach to fill the missing points with interpolated data calculated on the available points in the file. e.g. replace missing ages with the median by passenger class (fillna(x_train.groupby(['Pclass'])['Age'].transform('median')))
-  - For continuos values, like fare, the data was split into five(5) groups using the pandas qcut() method.
-  - all non-numeric data is dropped and only the numerical values are kept.
+  - Categorical data is transformed into numerical equivalents, i.e., converting sex into a numeric representation (replace({'male':0,'female':1}))
+  - While it is common to drop rows with missing data when building ML models, for a file with a modest size like the Titanic passenger list this would substantially reduce the available data.  As an alternative, we used an approach to fill the missing points with interpolated data calculated on the available points in the file, i.e., replace missing ages with the median by passenger class (fillna(x_train.groupby(['Pclass'])['Age'].transform('median')))
+  - For continuous values, like fare, the data was split into five (5) groups using the pandas qcut() method.
+  - All non-numeric data is dropped and only the numerical values are kept.
 
 ### Model Design
   - _TBD_
@@ -59,8 +59,8 @@ Description of interactive element(s):
 | :-------- | :-------------------------------- |
 | Square    | Machine Learning: Muhammad Madyun |
 | Triangle  | DataBase: Alan Goldberg           |
-| Circle    | Alex Wang                         |
-| X Role    | Kevin Birk                        |
+| Circle    | Tableau: Alex Wang                |
+| X         | GitHub: Kevin Birk                |
 
 
 ## Resources
