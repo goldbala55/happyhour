@@ -12,9 +12,9 @@
   - Description of the data exploration phase of the project: 
     - Initial exploration of the data revealed several interesting factors to explore: Age, sex, and passenger class.  These will be further explored and transformed in the model pre-processing phase.  It was also observed that the data had a missing points for multiple values scattered through the input file.  As the modeling packages do not use missing values these will need to be addressed in the preprocessing phase as well.  Finally, text based values (like sex) and continuos values (like fare) will also need to be transformed to be useful in the modeling process.
 
-      * [Survival_count_by_Age](https://github.com/goldbala55/happyhour/blob/main/images/Survival_count_by_Age.png)
-      * [Survival_count_by_class](https://github.com/goldbala55/happyhour/blob/main/images/Survival_count_by_class.png)
-      * [Survival_count_by_sex](https://github.com/goldbala55/happyhour/blob/main/images/Survival_count_by_sex.png)
+      * [Survival_count_by_Age](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Survival_count_by_Age.png)
+      * [Survival_count_by_class](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Survival_count_by_class.png)
+      * [Survival_count_by_sex](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Survival_count_by_sex.png)
 
 
   - Description of the analysis phase of the project: _TBD_
