@@ -27,11 +27,6 @@ Description of interactive element(s):
 
 - Tableau will be used for the interactive elements of exploring certain relationships between different factors which contributed to survival on the [Titanic on Tableau](https://public.tableau.com/app/profile/alex.wang6199/viz/ExploringSurvivalontheTitanicTableau/AverageSurvivalRateByClass) 
 
-## Communication protocols:
-
-- Breakout rooms during class sessions Tuesdays and Thursdays
-- #happyhour slack channel
-- Out of Class Meetings on Monday and  Saturday or when needed. 
 
 ### Team members
 | Key Roles | Team                              |
