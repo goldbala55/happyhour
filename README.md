@@ -93,7 +93,7 @@ Description of the data exploration phase of the project
 
   Based on loading the data into a pandas dataframe, there are 714 non-null (177 null) values for Age, 204 non-null (687 null) values for Cabin, and 889 non-null (2 null) values for Embarked, as such these values may not be as reliable to predict the survival rate for the Titanic. In addition, the average rate of survival was approximately 38.38% with an average fare of 32.20 and standard deviation of 49.69 for the fare
 
-<details><summary>Description of the data exploration phase of the project</summary>
+<details><summary>Training set statistics</summary>
 <p>
 
 ![image](https://user-images.githubusercontent.com/76754655/125883265-16a4344a-c1a5-49c9-bae2-dbe380d0dec6.png)
