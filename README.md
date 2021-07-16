@@ -88,17 +88,12 @@ ERD
 
 #### relocated for discussion
   Where did all these numbers come from?  Is there a notebook or sheet or ?
-#### ------------------------
-Reason why the topic was selected:
 
-  Train set has 891 rows and 12 columns based on PassengerId, Survived (target column), Pclass (Passenger's class), Name (will not be used for machine learning), Sex (to be converted to 0 and 1), Age (to be converted to age buckets), SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare (can be converted to fare buckets), Cabin (lots of missing values), and Embarked
-
-#### ---------------------------
 Description of the data exploration phase of the project
 
   Based on loading the data into a pandas dataframe, there are 714 non-null (177 null) values for Age, 204 non-null (687 null) values for Cabin, and 889 non-null (2 null) values for Embarked, as such these values may not be as reliable to predict the survival rate for the Titanic. In addition, the average rate of survival was approximately 38.38% with an average fare of 32.20 and standard deviation of 49.69 for the fare
+  
+  ![image](https://user-images.githubusercontent.com/76754655/125883265-16a4344a-c1a5-49c9-bae2-dbe380d0dec6.png)
+  
+  ![image](https://user-images.githubusercontent.com/76754655/125883323-91019bd7-4145-4eb4-9410-4ac694d9c934.png)
 
-#### ---------------------------
-Description of the analysis phase of the project: 
-
-  For the analysis, gender is replaced with 1 and 0 values. Further, the train and test dataframes are loaded to the Postgres DB.
