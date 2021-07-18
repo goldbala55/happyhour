@@ -1,6 +1,9 @@
 # Adding config.py file.
 config.py
 
+#Mac files
+.DS_Store
+
 #Adding additional files.
 Titanic Script.ipynb
 
