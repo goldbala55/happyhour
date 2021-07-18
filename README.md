@@ -2,7 +2,7 @@
 
 ## Project Overview
  ### Selected topic: Exploring Survival on the Titanic
-  - Reason why they selected their topic: Determine if there are certain factors such as gender, age, ticket class, etc that contributed to whether someone survived on the Titanic. Project could be used to further study safety in the cruise industry. And applied for actuarial projection by the insurance industry. 
+  - Reason why they selected their topic: Determine if there are certain factors such as gender, age, ticket class, etc that contributed to whether someone survived on the Titanic. Project could be used to further study safety in the cruise industry and applied for actuarial projection by the insurance industry. 
   
   Description of their source of data: Train set has 891 rows and 12 columns based on PassengerId, Survived (target column), Pclass (Passenger's class), Name (will not be used for machine learning), Sex (to be converted to 0 and 1), Age (to be converted to age buckets), SibSp (Number of siblings/spouses aboard), Parch (Number of parents/children aboard), Ticket, Fare (can be converted to fare buckets), Cabin (lots of missing values), and Embarked
   - Questions they hope to answer with the data: 
