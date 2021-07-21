@@ -5,7 +5,7 @@
   - Reason why the topic was selected: The crash of the Titanic is one history's most storied tragedies.  While there are many myths and facts surrounding the events of the day we know for certain who survived and who did not.  The question is why and how did some of them survive and others perish?  The team will determine if there are certain factors such as gender, age, ticket class, etc that contributed to whether someone survived on the Titanic.  Project could be used to further study safety in the cruise industry and applied for actuarial projection by the insurance industry. 
   - Description of the source data: Given the fame of the Titanic the details surrounding the passenger list and the survivors are well documented.  The version used in this analysis was posted on Kaggle and the link is below in the Resources section.
   - Questions to answer: 
-    - What factors contributed the most to the survival on the Titanic? What factors did not contribute to the survival on the Titanic? Can the factors be utilized to predict survival rates on a current ship.
+    - What factors contributed the most to the survival on the Titanic?  What factors did not contribute to the survival on the Titanic?  Can the factors be utilized to predict survival rates on a current ship?
     - Identify relationships that contribute to survival rates (i.e., single traveler vs traveling with a family member)
     - What impact did sex, age, or traveler class have on survival?
   - Description of the data exploration phase of the project: 
