@@ -97,7 +97,7 @@ The complete set of modules used can be found here: [requirements.txt](https://g
 
 Database: 
 AWS/RDS Postgresql 12.5 
-  - A Postgresql instance was created using the RDS service on AWS. Using a combination of SQL, Pandas, and the Pgadmin tool multiple files were loaded, joined, and used as input to the analysis and modeling process.  Accounts for read only and read/write access were created and appropriate connection strings were defined.
+  - A Postgresql instance was created using the RDS service on AWS. Using a combination of SQL, Pandas, and the Pgadmin tool, multiple files were loaded, joined, and used as input to the analysis and modeling process.  Accounts for read only and read/write access were created and appropriate connection strings were defined.
 
 ERD
 <details><summary>Titanic prepared data ER Diagram</summary>
