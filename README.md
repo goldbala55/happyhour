@@ -52,7 +52,7 @@ Based on the information gathered in the preprocessing phase the following decis
     </p>
     </details>
 
-  - Reviewing the importance of the factors in the model it is interesting to note high importance of 'fare' in the model.  This presents an interesting question into the socioeconomic structure back in the early 1900s.  Did wealthier people survive just because they were closer to the deck level or did the economic caste structure of the period contribute as well?  Feature ranking results are below:
+  - Reviewing the importance of the factors in the model it is interesting to note the high importance of 'fare' in the model.  This presents an interesting question into the socioeconomic structure back in the early 1900s.  Did wealthier people survive just because they were closer to the deck level or did the economic caste structure of the period contribute as well?  Feature ranking results are below:
 
     <details><summary>Titanic RandomForest Classifier Feature Rankings (initial)</summary>
     <p>
