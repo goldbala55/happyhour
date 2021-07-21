@@ -34,7 +34,7 @@ Based on the information gathered in the preprocessing phase the following decis
     2. Handle outliers and nonlinear data
     3. Rank the importance of input variables 
 
-  - When determining the set of factors, only a small subset of factors that based on initial analysis and preprocessing appeared to be prime candidates.  These include: age, sex, fare, and passenger class.
+  - When determining the set of factors, only a small subset of factors based on initial analysis and preprocessing appeared to be prime candidates.  These include: age, sex, fare, and passenger class.
   - The data was split into training / testing groups using the standard sklearn train_test_split() and 80/20 split.
   - There are a number of options left to investigate:
     - increasing the number of estimators used in the model from the start point of 128
