@@ -20,7 +20,7 @@
 
 ## Machine Learning Model
 ### Relationship Analysis 
-     * [Relationship Heatmap](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Heatmap.png)
+     * [Relationship Heatmap](https://github.com/goldbala55/happyhour/blob/main/images/heatmap.PNG?raw=true)
      
 ### Preprocessing
 Based on the information gathered in the preprocessing phase the following decisions and actions were taken:
