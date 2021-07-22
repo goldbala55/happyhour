@@ -19,6 +19,9 @@
   - Description of the analysis phase of the project: _TBD_
 
 ## Machine Learning Model
+### Relationship Analysis 
+     * [Survival_count_by_sex](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Heatmap.png)
+     
 ### Preprocessing
 Based on the information gathered in the preprocessing phase the following decisions and actions were taken:
   - the data is split into training and testing components using the standard sklearn train_test_split() module.  We used an 80/20 train/test split to make sure the training data had sufficient observations to work with.
