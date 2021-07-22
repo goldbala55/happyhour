@@ -20,7 +20,7 @@
 
 ## Machine Learning Model
 ### Relationship Analysis 
-     * [Survival_count_by_sex](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Heatmap.png)
+     * [Relationship Heatmap](https://github.com/goldbala55/happyhour/blob/seg3_document/images/Heatmap.png)
      
 ### Preprocessing
 Based on the information gathered in the preprocessing phase the following decisions and actions were taken:
