@@ -20,7 +20,15 @@
 
 ## Machine Learning Model
 ### Relationship Analysis 
-     * [Relationship Heatmap](https://github.com/goldbala55/happyhour/blob/main/images/heatmap.PNG?raw=true)
+
+   <details><summary>Titanic RandomForest Classifier Results (initial)</summary>
+   <p>
+
+  ![Relationship Heatmap](https://github.com/goldbala55/happyhour/blob/main/images/heatmap.PNG)
+ 
+   </p>
+   </details>
+
      
 ### Preprocessing
 Based on the information gathered in the preprocessing phase the following decisions and actions were taken:
