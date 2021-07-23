@@ -20,7 +20,15 @@
 
 ## Machine Learning Model
 ### Relationship Analysis 
-     * [Relationship Heatmap](https://github.com/goldbala55/happyhour/blob/main/images/heatmap.PNG?raw=true)
+
+   <details><summary>Titanic RandomForest Classifier Results (initial)</summary>
+   <p>
+
+  ![Relationship Heatmap](https://github.com/goldbala55/happyhour/blob/main/images/heatmap.PNG)
+ 
+   </p>
+   </details>
+
      
 ### Preprocessing
 Based on the information gathered in the preprocessing phase the following decisions and actions were taken:
@@ -96,7 +104,10 @@ Data: [Exploring Survival on the Titanic](https://www.kaggle.com/mrisdal/explori
 
 Software: Python 3.7.10, Jupyter Notebook 6.3, pandas 1.2.4, Git Bash 4.4.23, Tableau Public 2021.2.0
 
-The complete set of modules used can be found here: [requirements.txt](https://github.com/goldbala55/happyhour/blob/main/Resources_2/requirements.txt)
+The core set of modules used can be found here: [requirements.txt](https://github.com/goldbala55/happyhour/blob/main/Resources_2/requirements.txt)
+
+An enhanced set of modules supporting pycaret can be found here: [requirements_pycaret.txt](https://github.com/goldbala55/happyhour/blob/main/Resources_2/requirements_pycaret.txt)
+
 
 Database: 
 AWS/RDS Postgresql 12.5 
