@@ -1,0 +1,15 @@
+Discuss how we integrated Postgresql DB into our project
+Use AWS / RDS service and created a new 'happyhour' DB
+    then created read_only and read_write roles/accounts for the team
+    users
+      ro_user='happyhour_ro1'
+      rw_user='happyhour_rw1'
+    connection strings for both accounts
+      ro_string = f\"postgresql://{ro_user}:{ro_pass}@postgress-1.caahnjhin4st.us-east-1.rds.amazonaws.com/{dbname}\
+      rw_string = f\"postgresql://{rw_user}:{rw_pass}@postgress-1.caahnjhin4st.us-east-1.rds.amazonaws.com/{dbname}\
+    then using sqlalchemy and psycopg2 
+    create and load tables 
+        postgres_join_tables.ipynb (pandas)
+        postgres_create_join_tables.sql (sql)    
+
+Finally display ERD diagram from README.md
